@@ -1,6 +1,6 @@
 # YrpreyPathTraversal
 
-![yprey](https://i.imgur.com/uYfdBN9.png)
+![yprey](https://i.imgur.com/wXUgMrw.png)
 
 **Created by [Fernando Mengali](https://www.linkedin.com/in/fernando-mengali-273504142/)**
 
