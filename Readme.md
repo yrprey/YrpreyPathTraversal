@@ -18,6 +18,8 @@ How exploit Path Taversal - Basic:
 
 ````
 
+
+
 #### Exploitation - Path Traversal - Null Termination %00
 
 ![yprey](https://i.imgur.com/HE9OtTS.png)
@@ -32,6 +34,8 @@ How exploit Path Traversal - Null Termination %00:
 
 
 
+
+
 #### Exploitation - Path Traversal - Bypass with caracteres "//" and/or "\/"
 
 ![yprey](https://i.imgur.com/b6islHK.png)
@@ -43,6 +47,8 @@ How exploit Path Traversal - Bypass with caracteres "//" and/or "\/"
  ..//..//..//..//etc//passwd
 
 ````
+
+
 
 
 
