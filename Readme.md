@@ -20,7 +20,7 @@ How exploit Path Taversal - Basic:
 
 #### Exploitation - Path Traversal - Null Termination %00
 
-![yprey](https://i.imgur.com/lT2VNWL.png)
+![yprey](https://i.imgur.com/HE9OtTS.png)
 
 How exploit Path Traversal - Null Termination %00:
 
